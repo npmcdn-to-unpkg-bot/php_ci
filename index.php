@@ -91,6 +91,17 @@ switch (ENVIRONMENT)
 
 /*
  *---------------------------------------------------------------
+ * ASSETS DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * This variable must contain the name of your "assets" directory.
+ * Set the path if it is not in the same directory as this file.
+ */
+	$assets_path = 'assets/';
+
+
+/*
+ *---------------------------------------------------------------
  * SYSTEM DIRECTORY NAME
  *---------------------------------------------------------------
  *
@@ -98,6 +109,7 @@ switch (ENVIRONMENT)
  * Set the path if it is not in the same directory as this file.
  */
 	$system_path = 'system';
+
 
 /*
  *---------------------------------------------------------------
@@ -228,6 +240,9 @@ switch (ENVIRONMENT)
 
 	// Path to the system directory
 	define('BASEPATH', $system_path);
+
+	// Path to the assets directory
+	define('ASSETSPATH', $assets_path);
 
 	// Path to the front controller (this file) directory
 	define('FCPATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
