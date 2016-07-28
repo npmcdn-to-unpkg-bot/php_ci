@@ -1,6 +1,6 @@
-############
-Team Project
-############
+#############
+Team Project:
+#############
 
 -	`Alexandre Chabert`
 -	`Daniel Barcelos<https://github.com/daniel2mind/>`_
