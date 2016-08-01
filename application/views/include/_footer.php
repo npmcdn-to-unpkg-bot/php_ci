@@ -1,23 +1,26 @@
- 
- </div> <!-- end Wraper -->
+            </div><!--END page_content - right_col OF NAVBAR-->
+
+            <!-- footer content -->
+            <footer>
+                <div>
+                    Copyright 2016 <i class="fa fa-copyright"></i>
+                    <a href="http://fcacomputers.com.br/" target="_blank">FCA TI</a>
+                </div>
+                <div class="clearfix"></div>
+            </footer>
+            <!-- /footer content -->
+
+
+        </div><!--END main_container OF HEADER-->
+    </div><!--END container body OF HEADER-->
 
     <!-- jQuery -->
-    <script src="<?php echo base_url().'assets/bower_components/jquery/dist/jquery.min.js';?>"></script>
+    <script src="<?php echo ASSETSPATH.'jquery/dist/jquery.min.js';?>"></script>
+    <!-- Bootstrap -->
+    <script src="<?php echo ASSETSPATH.'gentelella/js/bootstrap/bootstrap.min.js';?>"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="<?php echo ASSETSPATH.'gentelella/js/custom/custom.js';?>"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="<?php echo base_url().'assets/bower_components/bootstrap/dist/js/bootstrap.min.js';?>"></script>
-
-    <!-- Metis Menu Plugin JavaScript -->
-    <script src="<?php echo base_url().'assets/bower_components/metisMenu/dist/metisMenu.min.js';?>"></script>
-
-    <!-- Morris Charts JavaScript -->
-    <script src="<?php echo base_url().'assets/bower_components/raphael/raphael-min.js';?>"></script>
-    <script src="<?php echo base_url().'assets/bower_components/morrisjs/morris.min.js';?>"></script>
-    <script src="<?php echo base_url().'assets/js/morris-data.js';?>"></script>
-    <script src="<?php echo base_url().'assets/js/fca_custom.js';?>"></script>    
-
-    <!-- Custom Theme JavaScript -->
-    <script src="<?php echo base_url().'assets/dist/js/sb-admin-2.js';?>"></script>
 
 </body>
 

@@ -35,7 +35,7 @@ class Login extends CI_Controller {
 			var_dump($newdata);
 
 			$this->session->set_userdata($newdata);
-			redirect('/dashboard', 'location', 301);
+			redirect('/teste', 'location', 301);
 		}else{
 		
 			redirect('/', 'location', 301);

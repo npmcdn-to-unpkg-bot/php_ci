@@ -11,35 +11,18 @@
 
     <title>Costumer Portal FCA TI</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="<?php echo base_url().'assets/bower_components/bootstrap/dist/css/bootstrap.min.css';?>" rel="stylesheet">
+    <!-- Bootstrap CSS-->
+    <link href="<?php echo ASSETSPATH.'bootstrap/dist/css/bootstrap.min.css';?>" rel="stylesheet">
 
-    <!-- MetisMenu CSS -->
-    <link href="<?php echo base_url().'assets/bower_components/metisMenu/dist/metisMenu.min.css';?>" rel="stylesheet">
-
-    <!-- Timeline CSS -->
-    <link href="<?php echo base_url().'assets/dist/css/timeline.css';?>" rel="stylesheet">
+    <!-- Font-awesome CSS -->
+    <link href="<?php echo ASSETSPATH.'font-awesome/css/font-awesome.min.css';?>" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <!-- <link href="<?php echo base_url().'assets/dist/css/sb-admin-2.css';?>" rel="stylesheet"> -->
-
-    <!-- Morris Charts CSS -->
-    <link href="<?php echo base_url().'assets/bower_components/morrisjs/morris.css';?>" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!-- <link href="<?php echo base_url().'assets/bower_components/font-awesome/css/font-awesome.min.css';?>" rel="stylesheet" type="text/css"> -->
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link href="<?php echo base_url().'assets/css/fca_custom.css';?>" rel="stylesheet">
-
+    <link href="<?php echo ASSETSPATH.'custom/custom.css';?>" rel="stylesheet">
+    
 
 </head>
 
-<body>
-<!-- <div class="container"> -->
+<body class="nav-md">
+<div class="container body">
+    <div class="main_container">
