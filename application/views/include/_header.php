@@ -19,7 +19,23 @@
 
     <!-- Custom CSS -->
     <link href="<?php echo ASSETSPATH.'custom/custom.css';?>" rel="stylesheet">
-    
+
+    <!-- NProgress -->
+    <link href="<?php echo ASSETSPATH.'gentelella/css/nprogress/nprogress.css';?>" rel="stylesheet">
+
+    <!-- iCheck -->
+    <link href="<?php echo ASSETSPATH.'gentelella/css/iCheck/skins/flat/green.css';?>" rel="stylesheet">
+
+    <!-- Datatables -->
+    <link href="<?php echo ASSETSPATH.'gentelella/css/datatables/dataTables.bootstrap.css';?>" rel="stylesheet">
+    <link href="<?php echo ASSETSPATH.'gentelella/css/datatables/buttons.bootstrap.css';?>" rel="stylesheet">
+    <link href="<?php echo ASSETSPATH.'gentelella/css/datatables/fixedHeader.bootstrap.css';?>" rel="stylesheet">
+    <link href="<?php echo ASSETSPATH.'gentelella/css/datatables/responsive.bootstrap.css';?>" rel="stylesheet">
+    <link href="<?php echo ASSETSPATH.'gentelella/css/datatables/scroller.bootstrap.css';?>" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="<?php echo ASSETSPATH.'jquery/dist/jquery.min.js';?>"></script>
+
 
 </head>
 

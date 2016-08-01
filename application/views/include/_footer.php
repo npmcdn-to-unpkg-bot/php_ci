@@ -14,13 +14,17 @@
         </div><!--END main_container OF HEADER-->
     </div><!--END container body OF HEADER-->
 
-    <!-- jQuery -->
-    <script src="<?php echo ASSETSPATH.'jquery/dist/jquery.min.js';?>"></script>
+            
     <!-- Bootstrap -->
     <script src="<?php echo ASSETSPATH.'gentelella/js/bootstrap/bootstrap.min.js';?>"></script>
     <!-- Custom Theme Scripts -->
     <script src="<?php echo ASSETSPATH.'gentelella/js/custom/custom.js';?>"></script>
-
+    <!-- NProgress -->
+    <script src="<?php echo ASSETSPATH.'gentelella/js/nprogress/nprogress.js';?>"></script>
+    <!-- iCheck -->
+    <script src="<?php echo ASSETSPATH.'gentelella/js/iCheck/icheck.js';?>"></script>
+    <!-- Fastclick -->
+    <script src="<?php echo ASSETSPATH.'gentelella/js/fastclick/fastclick.js';?>"></script>
 
 </body>
 
