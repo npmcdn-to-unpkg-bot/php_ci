@@ -9,7 +9,7 @@
     <meta name="description" content="Costumer Portal"/>
     <meta name="author" content="FCA TI"/>
 
-    <title>PHP CI</title>
+    <title>Login</title>
 
     <!-- Bootstrap CSS-->
     <link href="<?php echo ASSETSPATH.'bootstrap/dist/css/bootstrap.min.css';?>" rel="stylesheet">

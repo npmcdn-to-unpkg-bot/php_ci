@@ -11860,7 +11860,7 @@
 		 *      } );
 		 *    } )
 		 */
-		"sPaginationType": "full_numbers",
+		"sPaginationType": "simple_numbers",
 	
 	
 		/**

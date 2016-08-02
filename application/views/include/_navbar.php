@@ -1,9 +1,13 @@
+<head>
+    <title>Equipamentos</title>
+</head>
+
 <!-- sidebar menu -->
 <div class="col-md-3 left_col">
     <div class="left_col scroll-view">
 
         <div class="navbar nav_title text-center" style="border: 0;">
-            <img src="<?php echo ASSETSPATH.'logo/img/logo_fcati.png';?>" alt="FCATI" class="nav_logo">
+            <img src="<?php echo ASSETSPATH.'img/logo/logo_fcati.png';?>" alt="FCATI" class="nav_logo">
         </div>
 
         <div class="clearfix"></div>
@@ -19,22 +23,22 @@
                     </li>
                     <li><a><i class="fa fa-calculator"></i> Contas <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
-                            <li><a href="<?php echo BASEURL .'lista_boleto';?>">Boletos atualizados</a></li>
-                            <li><a href="<?php echo BASEURL .'extrato_voip';?>">Extratos VoIP</a></li>
+                            <li><a href="#">Boletos atualizados</a></li>
+                            <li><a href="#">Extratos VoIP</a></li>
                         </ul>
                     </li>
                     <li><a><i class="fa fa-check-square-o"></i> Inventário <span class="fa fa-chevron-down"></span></a>
                         <ul class="nav child_menu">
                             <li><a href="<?php echo BASEURL .'equipamento';?>">Equipamentos</a></li>
-                            <li><a href="<?php echo BASEURL .'internet';?>">Internet</a></li>
-                            <li><a href="<?php echo BASEURL .'roteador_switch';?>">Roteador/Switch</a></li>
-                            <li><a href="<?php echo BASEURL .'servidor';?>">Servidores</a></li>
-                            <li><a href="<?php echo BASEURL .'software';?>">Softwares</a></li>
-                            <li><a href="<?php echo BASEURL .'voip';?>">VoIP</a></li>
+                            <li><a href="#">Internet</a></li>
+                            <li><a href="#">Roteador/Switch</a></li>
+                            <li><a href="#">Servidores</a></li>
+                            <li><a href="#">Softwares</a></li>
+                            <li><a href="#">VoIP</a></li>
                         </ul>
                     </li>
                     <li>
-                        <a href="<?php echo BASEURL .'procedimento';?>">
+                        <a href="#">
                             <i class="fa fa-trello"></i> Procedimentos <span class="fa fa-chevron-right"></span>
                         </a>
                     </li>
@@ -63,8 +67,8 @@
                         <span class=" fa fa-angle-down"></span>
                     </a>
                     <ul class="dropdown-menu dropdown-usermenu pull-right">
-                        <li><a href="javascript:;"><i class="fa fa-gears"></i> Perfil</a></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Sair</a></li>
+                        <li><a href="javascript:;"><i class="fa fa-gears pull-right text-success"></i> Perfil</a></li>
+                        <li><a href="<?php echo BASEURL .'login';?>"><i class="fa fa-sign-out pull-right fa-dropdown-green"></i> Sair</a></li>
                     </ul>
                 </li>
             </ul>

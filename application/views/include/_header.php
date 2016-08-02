@@ -9,7 +9,8 @@
     <meta name="description" content="Costumer Portal"/>
     <meta name="author" content="FCA TI"/>
 
-    <title>Costumer Portal FCA TI</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="<?php echo ASSETSPATH.'img/favicon.png';?>" type="image/x-icon"/>
 
     <!-- Bootstrap CSS-->
     <link href="<?php echo ASSETSPATH.'bootstrap/dist/css/bootstrap.min.css';?>" rel="stylesheet">
@@ -33,8 +34,17 @@
     <link href="<?php echo ASSETSPATH.'gentelella/css/datatables/responsive.bootstrap.css';?>" rel="stylesheet">
     <link href="<?php echo ASSETSPATH.'gentelella/css/datatables/scroller.bootstrap.css';?>" rel="stylesheet">
 
+    <!-- PNOTIFY -->
+    <link href="<?php echo ASSETSPATH.'gentelella/css/pnotify/pnotify.css';?>" rel="stylesheet">
+    <link href="<?php echo ASSETSPATH.'gentelella/css/pnotify/pnotify.buttons.css';?>" rel="stylesheet">
+    <link href="<?php echo ASSETSPATH.'gentelella/css/pnotify/pnotify.nonblock.css';?>" rel="stylesheet">
+    <!-- END CSS-->
+
+
+    <!-- JAVASCRIPT -->
     <!-- jQuery -->
     <script src="<?php echo ASSETSPATH.'jquery/dist/jquery.min.js';?>"></script>
+    <!-- END JAVASCRIPT-->
 
 
 </head>

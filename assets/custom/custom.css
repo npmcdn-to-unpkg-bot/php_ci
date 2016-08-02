@@ -726,6 +726,26 @@ article.media {
 *, *:before, *:after {
   box-sizing: border-box; }
 
+@media (max-width: 640px) {
+  .tb-responsive {
+    overflow-x: visible;
+    display: inline-block;
+    width: 550px;
+    height: auto;
+  }
+
+}
+
+@media (min-width: 640px) {
+  .tb-responsive {
+    width: 98%;
+  }
+}
+
+#btn-add{
+  float: right;
+}
+
 #integration-list {
   width: 100%;
   margin: 0 auto;
