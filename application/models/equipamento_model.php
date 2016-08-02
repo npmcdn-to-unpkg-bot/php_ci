@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Teste_Model extends MY_Model
+class Equipamento_Model extends MY_Model
 {
 
     protected $_table_name = '';
@@ -15,7 +15,7 @@ class Teste_Model extends MY_Model
     {
         parent::__construct();
     }
-    
+
     function init(){
         //Obtém parâmetros 
         //Faz validações

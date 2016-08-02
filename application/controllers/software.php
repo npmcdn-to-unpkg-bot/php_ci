@@ -2,12 +2,12 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Teste extends MY_Controller {
+class Software extends MY_Controller {
 
     public function index()
     {
         //Carrega a Model
-        $this->load->model('teste_model');
+        $this->load->model('software_model');
         $this->load->library('session');
 
         // Prepara parâmetros
@@ -16,8 +16,8 @@ class Teste extends MY_Controller {
         );
 
         //Carrega a View
-        $data['teste'] = $this->teste_model->init($conditions);
-        $data['template'] = 'teste';
+        $data['software'] = $this->software_model->init($conditions);
+        $data['template'] = 'software';
         $this->load->view('include/template',$data);
     }
 }
